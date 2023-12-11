@@ -3,6 +3,9 @@
   justify-content: center;
 }
 
+.heroImage{
+  width: fit-content;
+}
   
   .info {
     position: relative;
@@ -12,7 +15,7 @@
     margin-right: auto;
     font-family: 'Manrope';
     font-size: 32px;
-    line-height: 40px;
+    line-height: 56px;
     font-weight: 500;
     color: rgba(52, 112, 255, 1);
     margin-top: 40px;
@@ -23,6 +26,7 @@
     .info{
       width: 500px;
     }
+    
 
   }
 
@@ -52,18 +56,16 @@
     display: flex;
     align-items: center;
   }
-
-
   
   .rentalCarBtn {
     font-family: 'Manrope';
-    width: 168px;
-    height: 44px;
+    width: 200px;
+    height: 60px;
     background-color: rgba(52, 112, 255, 1);
-    border: 0px;
+    border: none;
     border-radius: 12px;
     color: white;
-    font-size: 14px;
+    font-size: 18px;
     line-height: 20px;
     font-weight: 600;
     box-sizing: border-box;
@@ -90,13 +92,14 @@
   
   .toCatalogBtn {
     font-family: 'Manrope';
-    width: 168px;
-    height: 44px;
-    background-color: transparent;
-    border: 2px solid rgba(52, 112, 255, 1);
+    width: 200px;
+    height: 60px;
+    background-color: rgba(52, 112, 255, 1);
+
+    border:none;
     border-radius: 12px;
     color: white;
-    font-size: 14px;
+    font-size: 18px;
     line-height: 20px;
     font-weight: 600;
     box-sizing: border-box;
@@ -105,7 +108,8 @@
   }
   
   .toCatalogBtn:hover {
-    background-color: rgba(52, 112, 255, 1);
+    background-color: rgba(11, 68, 205, 1);
+    
   }
   
   .toCatalogBtn:active {

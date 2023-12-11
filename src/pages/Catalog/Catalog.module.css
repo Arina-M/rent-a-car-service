@@ -21,11 +21,25 @@ body {
   .filter {
     display: flex;
     align-items: flex-end;
-    height: 74px;
+    /* height: 74px; */
     width: 900px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 50px;
+  }
+
+  @media (max-width:970px){
+    .filter{
+      align-items: baseline;
+      /* margin-bottom: 268px; */
+      flex-direction: column;
+    }
+
+    .searchButton{
+      margin-top: 15px;
+    }
+
+
   }
   
   .gallery {
