@@ -1,6 +1,11 @@
-import { configureStore } from '@reduxjs/toolkit';
+import { configureStore, combineReducers } from '@reduxjs/toolkit';
 import { persistStore, persistReducer } from 'redux-persist';
 import storage from 'redux-persist/lib/storage';
+import { carsSlice } from './cars-slice';
+
+const rootReducer = combineReducers({
+    cars: carsSlice.reducer,
+});
 
 const persistConfig = {
   key: 'root',
